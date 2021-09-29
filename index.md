@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Recursividade
 
-/*. Faça uma função recursiva que calcula a divisão usando subtrações sucessivas:
+  Faça uma função recursiva que calcula a divisão usando subtrações sucessivas:
 int divisao (int numerador, int denominador)
 Faça um programa principal que leia dois números, acione a função e exiba o resultado
 gerado.
