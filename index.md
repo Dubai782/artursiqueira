@@ -4,9 +4,12 @@ You can use the [editor on GitHub](https://github.com/Dubai782/artursiqueira/edi
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Recursividade
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+/*. Faça uma função recursiva que calcula a divisão usando subtrações sucessivas:
+int divisao (int numerador, int denominador)
+Faça um programa principal que leia dois números, acione a função e exiba o resultado
+gerado.
 
 ```markdown
 
