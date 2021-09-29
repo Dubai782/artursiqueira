@@ -9,21 +9,24 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+#include <stdio.h>
+#include  <math.h>
 
-- Bulleted
-- List
+int main(void)
+{
+    int n = 1; // Variável n = numerador
+    int d = 1; // Variável d = denominador
 
-1. Numbered
-2. List
+    printf("Digite o numerador: \n");
+    scanf("%d", &n);
+    printf("Digite o denominador: \n");
+    scanf("%d", &d);
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+    n = n/d;
+    printf("O resultado gerado pela divisao dos numeros foi %d \n",n); // Antes tinha colocado mai uma varável, mas depois vi que não precisava.
+    return 0;
+}
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
